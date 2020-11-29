@@ -1,23 +1,8 @@
 [
   {
-    "name": "dessert",
-    "path": "/dessert",
-    "component": "D:\\\\NodeJS\\\\AdonisJS\\\\tutorial\\\\resources\\\\pages\\\\dessert.vue",
-    "chunkName": "pages/dessert",
-    "_name": "_37203615"
-  },
-  {
-    "name": "inspire",
-    "path": "/inspire",
-    "component": "D:\\\\NodeJS\\\\AdonisJS\\\\tutorial\\\\resources\\\\pages\\\\inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_514eb3c9"
-  },
-  {
-    "name": "index",
-    "path": "/",
-    "component": "D:\\\\NodeJS\\\\AdonisJS\\\\tutorial\\\\resources\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_fd2ad0fe"
+    "name": "",
+    "path": "",
+    "component": "D:\\\\NodeJS\\\\AdonisJS\\\\tutorial\\\\node_modules\\\\@nuxt\\\\vue-app\\\\template\\\\pages\\\\index.vue",
+    "_name": "_f9ed75aa"
   }
 ]
