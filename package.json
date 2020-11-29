@@ -1,0 +1,56 @@
+{
+  "name": "adonis-fullstack-app",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "The fullstack application boilerplate for Adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "serve:dev": "npm run dev",
+    "dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x node server.js",
+    "build": "node ./ace nuxtbuild",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "generate": "nuxt-ts generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-app"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/auth": "^3.0.7",
+    "@adonisjs/bodyparser": "^2.0.5",
+    "@adonisjs/cors": "^1.0.7",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/framework": "^5.0.9",
+    "@adonisjs/ignitor": "^2.0.8",
+    "@adonisjs/lucid": "^6.1.3",
+    "@adonisjs/session": "^1.0.27",
+    "@adonisjs/shield": "^1.0.8",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/proxy": "^2.0.1",
+    "core-js": "^3.6.5",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6",
+    "nuxt": "^2.14.7"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-nuxt": "^1.0.0"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
